@@ -1,65 +1,62 @@
-# Tactical Risk Index - S&P Global & Crisil Campus Hackathon 2026
+# ⚡ Tactical Risk Index
 
-**Candidate Name:** Rashi Verma  
-**College Email ID:** rashi.23bce10005@vitbhopal.ac.in
-**College / Campus:** VIT Bhopal University  
-**Demo Video Link:** [To be added]  
-**Slide Deck:** [To be added]
+### AI-Powered Financial Risk Intelligence & Dynamic Index Rebalancing
 
----
+> **S&P Global & Crisil Campus Hackathon 2026**
 
-## 1. Project Overview / Problem Statement & Approach
-
-Financial markets are continuously affected by unstructured information such as financial news, corporate announcements, regulatory events, geopolitical developments, and market-moving events. Processing this information manually is slow and makes it difficult to react consistently to emerging risks.
-
-The Tactical Risk Index is an AI-powered financial risk analysis and index rebalancing prototype. The system ingests publicly available financial news from multiple sources, uses a Groq-powered LLM to transform unstructured headlines into structured risk signals, and dynamically adjusts the weights of a mock 10-stock index based on sentiment and impact.
-
-The system produces:
-
-- Sentiment Score (-1.0 to +1.0)
-- Sentiment classification
-- Event classification
-- Impact Score (1-10)
-- Reason for the risk assessment
-- Affected stock tickers
-
-These signals are then consumed by the Tactical Rebalancing Engine to increase or decrease stock weights while maintaining a 100% portfolio allocation.
+**Rashi Verma**  
+**Roll No.: 23BCE10005**  
+**VIT Bhopal University**
 
 ---
 
-## 2. Architecture & Tech Stack
+## 🔗 Project Links
 
-### Architecture
+| Resource | Link |
+|---|---|
+| 💻 Source Code | [GitHub Repository](https://github.com/RashiVerma14/tactical-risk-index) |
+| 🎥 Demo Video | `ADD_YOUTUBE_UNLISTED_LINK_HERE` |
+| 📊 Presentation | [`docs/presentation.pdf`](docs/presentation.pdf) |
+| 🏗️ Architecture | [`docs/architecture.png`](docs/architecture.png) |
+<img width="3497" height="1957" alt="architecture" src="https://github.com/user-attachments/assets/180130cb-1d25-4a88-9fb2-0e732e0d37a4" />
 
-![System Architecture](docs/architecture.png)
 
-### Data Flow
+---
+
+# 📌 1. Project Overview
+
+**Tactical Risk Index** is an AI-powered financial risk intelligence system that converts unstructured financial news into structured risk signals and uses those signals to dynamically rebalance a tactical stock index.
+
+Financial markets continuously generate information through earnings announcements, mergers and acquisitions, regulatory actions, cybersecurity incidents, product launches, macroeconomic events and other developments.
+
+The challenge is not simply collecting this information — it is determining:
+
+- What happened?
+- Is the information positive or negative?
+- How significant is the event?
+- Which company or stock is affected?
+- Should portfolio exposure change?
+- Why did the allocation change?
+
+Tactical Risk Index addresses this problem through an end-to-end pipeline:
 
 ```text
-Financial News Sources
-        |
-        v
-News Ingestion Layer
-        |
-        v
-Groq AI / NLP Risk Engine
-        |
-        +--> Sentiment Score
-        +--> Event Type
-        +--> Impact Score
-        +--> Affected Stocks
-        |
-        v
+Financial News
+      ↓
+News Ingestion & Filtering
+      ↓
+AI Risk Analysis
+      ↓
+Sentiment + Event + Impact
+      ↓
+Affected Stock Mapping
+      ↓
 Risk Signals
-        |
-        v
-Tactical Rebalancing Engine
-        |
-        +--> Increase positive stocks
-        +--> Decrease negative stocks
-        |
-        v
-10-Stock Tactical Index
-        |
-        v
-Dashboard
+      ↓
+Tactical Rebalancing
+      ↓
+Weight Constraints
+      ↓
+Normalization to 100%
+      ↓
+Interactive Dashboard
