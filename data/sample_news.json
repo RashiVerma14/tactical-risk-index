@@ -1,0 +1,32 @@
+[
+  {
+    "title": "NVIDIA announces new AI chip platform for data centers",
+    "source": "Synthetic Demo Data",
+    "sentimentContext": "Positive",
+    "expectedStock": "NVDA"
+  },
+  {
+    "title": "Microsoft expands Azure AI infrastructure investment",
+    "source": "Synthetic Demo Data",
+    "sentimentContext": "Positive",
+    "expectedStock": "MSFT"
+  },
+  {
+    "title": "Tesla faces regulatory investigation over vehicle safety",
+    "source": "Synthetic Demo Data",
+    "sentimentContext": "Negative",
+    "expectedStock": "TSLA"
+  },
+  {
+    "title": "JPMorgan reports stronger quarterly earnings",
+    "source": "Synthetic Demo Data",
+    "sentimentContext": "Positive",
+    "expectedStock": "JPM"
+  },
+  {
+    "title": "Apple faces supply chain disruption affecting iPhone production",
+    "source": "Synthetic Demo Data",
+    "sentimentContext": "Negative",
+    "expectedStock": "AAPL"
+  }
+]
