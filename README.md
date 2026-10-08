@@ -15,7 +15,7 @@
 | Resource | Link |
 |---|---|
 | 💻 Source Code | [GitHub Repository](https://github.com/RashiVerma14/tactical-risk-index) |
-| 🎥 Demo Video | `ADD_YOUTUBE_UNLISTED_LINK_HERE` |
+| 🎥 Demo Video | https://youtu.be/-Xl8FVyO3v0 |
 | 📊 Presentation | [`docs/presentation.pdf`](docs/presentation.pdf) |
 | 🏗️ Architecture | [`docs/architecture.png`](docs/architecture.png) |
 <img width="3497" height="1957" alt="architecture" src="https://github.com/user-attachments/assets/180130cb-1d25-4a88-9fb2-0e732e0d37a4" />
