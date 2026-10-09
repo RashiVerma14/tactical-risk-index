@@ -61,3 +61,92 @@ Weight Constraints
 Normalization to 100%
       ↓
 Interactive Dashboard
+
+
+
+ 2. Technology Stack
+
+Category
+
+Technology
+
+Programming Language
+
+Java 21
+
+Backend Framework
+
+Spring Boot
+
+Build Tool
+
+Maven
+
+AI / LLM Integration
+
+Groq API
+
+Financial News Sources
+
+NewsAPI, BBC Business RSS
+
+Market Data
+
+Alpha Vantage API
+
+Frontend
+
+HTML, CSS, JavaScript
+
+Data Visualization
+
+Chart.js
+
+API Communication
+
+REST APIs
+
+Containerization
+
+Docker
+
+Version Control
+
+Git, GitHub
+
+
+
+
+Quantitative Constraints
+
+Metric
+
+Implemented Value
+
+Stocks in the index
+
+10
+
+Initial allocation per stock
+
+10%
+
+Minimum permitted stock weight
+
+5%
+
+Maximum permitted stock weight
+
+15%
+
+Target total portfolio weight
+
+100%
+
+Sentiment score range
+
+-1 to +1
+
+AI impact score range
+
+1 to 10
