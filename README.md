@@ -64,89 +64,35 @@ Interactive Dashboard
 
 
 
- 2. Technology Stack
+## 🛠️ Technology Stack
 
-Category
+| Category | Technologies |
+|---|---|
+| Programming Language | Java 21 |
+| Backend Framework | Spring Boot |
+| Build Tool | Maven |
+| AI & Large Language Model | Groq API, LLM-based financial news analysis |
+| News Ingestion | NewsAPI, BBC Business RSS |
+| Market Data Integration | Alpha Vantage API |
+| Frontend | HTML5, CSS3, JavaScript |
+| Data Visualization | Chart.js |
+| API Architecture | REST APIs |
+| Containerization | Docker |
+| Version Control | Git, GitHub |
+| Development Environment | Visual Studio Code |
 
-Technology
+### Key Technical Capabilities
 
-Programming Language
+- **AI-Powered Risk Analysis:** Sentiment analysis, financial event classification, impact scoring, and affected-stock identification.
+- **Dynamic Index Rebalancing:** Adjusts stock weights using sentiment and impact signals while enforcing 5%–15% allocation constraints.
+- **Portfolio Normalization:** Maintains a total portfolio allocation of 100%.
+- **Multi-Source News Ingestion:** Collects financial news from NewsAPI and BBC Business RSS.
+- **Market Data Integration:** Retrieves stock prices and daily percentage changes through Alpha Vantage, with fallback data.
+- **Interactive Dashboard:** Displays AI risk signals, stock allocations, market data, and portfolio weight changes.
+- **Historical Weight Visualization:** Uses Chart.js to visualize portfolio allocations across rebalancing cycles.
+- **Modular Backend Architecture:** Separates controllers, services, and models for maintainability and extensibility.
 
-Java 21
+### Core Workflow
 
-Backend Framework
+`Financial News → AI Risk Analysis → Structured Risk Signals → Tactical Rebalancing → Portfolio Normalization → Dashboard Visualization`
 
-Spring Boot
-
-Build Tool
-
-Maven
-
-AI / LLM Integration
-
-Groq API
-
-Financial News Sources
-
-NewsAPI, BBC Business RSS
-
-Market Data
-
-Alpha Vantage API
-
-Frontend
-
-HTML, CSS, JavaScript
-
-Data Visualization
-
-Chart.js
-
-API Communication
-
-REST APIs
-
-Containerization
-
-Docker
-
-Version Control
-
-Git, GitHub
-
-
-
-
-Quantitative Constraints
-
-Metric
-
-Implemented Value
-
-Stocks in the index
-
-10
-
-Initial allocation per stock
-
-10%
-
-Minimum permitted stock weight
-
-5%
-
-Maximum permitted stock weight
-
-15%
-
-Target total portfolio weight
-
-100%
-
-Sentiment score range
-
--1 to +1
-
-AI impact score range
-
-1 to 10
