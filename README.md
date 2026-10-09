@@ -62,37 +62,7 @@ Normalization to 100%
       ↓
 Interactive Dashboard
 
+<img width="318" height="311" alt="image" src="https://github.com/user-attachments/assets/c2345392-f215-442f-b430-1110b4eae4ad" />
 
 
-## 🛠️ Technology Stack
-
-| Category | Technologies |
-|---|---|
-| Programming Language | Java 21 |
-| Backend Framework | Spring Boot |
-| Build Tool | Maven |
-| AI & Large Language Model | Groq API, LLM-based financial news analysis |
-| News Ingestion | NewsAPI, BBC Business RSS |
-| Market Data Integration | Alpha Vantage API |
-| Frontend | HTML5, CSS3, JavaScript |
-| Data Visualization | Chart.js |
-| API Architecture | REST APIs |
-| Containerization | Docker |
-| Version Control | Git, GitHub |
-| Development Environment | Visual Studio Code |
-
-### Key Technical Capabilities
-
-- **AI-Powered Risk Analysis:** Sentiment analysis, financial event classification, impact scoring, and affected-stock identification.
-- **Dynamic Index Rebalancing:** Adjusts stock weights using sentiment and impact signals while enforcing 5%–15% allocation constraints.
-- **Portfolio Normalization:** Maintains a total portfolio allocation of 100%.
-- **Multi-Source News Ingestion:** Collects financial news from NewsAPI and BBC Business RSS.
-- **Market Data Integration:** Retrieves stock prices and daily percentage changes through Alpha Vantage, with fallback data.
-- **Interactive Dashboard:** Displays AI risk signals, stock allocations, market data, and portfolio weight changes.
-- **Historical Weight Visualization:** Uses Chart.js to visualize portfolio allocations across rebalancing cycles.
-- **Modular Backend Architecture:** Separates controllers, services, and models for maintainability and extensibility.
-
-### Core Workflow
-
-`Financial News → AI Risk Analysis → Structured Risk Signals → Tactical Rebalancing → Portfolio Normalization → Dashboard Visualization`
 
